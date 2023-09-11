@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+body {
+  background: #091a21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+	padding: 50px;
+	background: #15242b;
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+	margin-bottom: 20px;
+	border: 10px ridge #fff;
+	line-height: 1.5;
+	font-family: montserrat;
+	font-weight: 600;
+	padding: 15px;
+}
+
+button {
+	padding: 10px 145px;
+	background-color: #00b5ff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-family: montserrat;
+	font-weight: 900;
+	display: block;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
